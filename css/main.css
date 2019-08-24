@@ -1,0 +1,328 @@
+/*** Login ***/
+/*
+body{
+  background: url(../img/encuesta_laboral.png) no-repeat center center fixed;
+  background-size: cover;
+}
+*/
+body{
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;  
+  background-color: #fff; 
+}
+
+.main-section{
+  margin: 0 auto;
+  margin-top: 130px;
+  padding: 0:;
+}
+
+.modal-content .contenedor{  
+  background-color: #434e5a;
+  opacity: .8;
+  padding: 0 18px;
+  border-radius: 10px;
+}
+
+.user-img img {
+  height: 120px;
+  width: 120px;
+}
+
+.user-img{
+  margin-top: -60px;
+  margin-bottom: 45px;
+}
+
+.form-group{
+  margin-bottom: 25px;
+}
+
+.form-group input{
+  border-radius: 5px;
+  border: 0;
+}
+
+.font-input button{
+  width: 40%;
+  margin: 5px 0 25px;
+}
+
+.btn-success{
+  background-color: #1c6288;
+  font-size: 14px;
+  border-radius: 5px;
+  padding: 7px 14px;
+  border: 1px solid #daf1ff; 
+}
+
+.btn-success:hover{
+  background-color: #13445e;
+  border: 1px solid #daf1ff;
+}
+
+.forgot{
+  padding: 5px 0 25px;
+}
+
+.forgot a{
+  color: #daf1ff;
+}
+/*** Fin Login ***/
+
+/*** Menu ***/
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+.btn-menu{
+    display: none;
+    padding: 15px;
+    background: #0d2c44;
+    color:#fff;
+}
+
+.btn-menu .icono{
+    float: right;
+}
+
+.contenedor-menu{
+    width: 15%;
+    min-width: 250px;
+    /*margin: 20px;*/
+    display: inline-block;
+    line-height: 18px;
+}
+
+.contenedor-menu .menu{
+    width: 100%;
+}
+
+.contenedor-menu ul{
+    list-style: none;
+}
+
+.contenedor-menu .menu li a{
+    color: #494949;
+    display: block;
+    padding: 10px 15px;
+    background: #e9e9e9;
+}
+
+.contenedor-menu .menu li a:hover{
+    background: #058CF6;
+    color: #fff;
+}
+
+.contenedor-menu .menu .icono{
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.contenedor-menu .menu .icono.izq{
+    float: left;
+    margin-right: 10px;
+}
+
+.contenedor-menu .menu .icono.der{
+    float: right;
+    margin-left: 10px;
+}
+
+.contenedor-menu .menu ul{
+    display: none;
+}
+
+.contenedor-menu .menu ul li a{
+    background: #424242;
+    color: #e9e9e9;
+}
+
+.contenedor-menu .menu .activado > a{
+    background: #058CF6;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 450px){
+    body{
+        padding-top:80px;
+    }
+
+    .contenedor-menu{
+        margin: 0;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .btn-menu{
+        display: block; 
+    }
+
+    .contenedor-menu .menu{
+        display: none;
+    }
+}
+/*** Fin Menu ***/
+
+/*** Contenedor Iframe ***/
+.contenedor-iframe{
+  margin: 0;
+  width: 82%;
+  height: 100%;
+  position: fixed;
+  top: 10;
+}
+
+/*** Datos a la Izquierda en el crud ***/
+#crudcargos .left {text-align:left;}
+
+/*clase para scroll de las tablas*/
+.scroll{
+  overflow:auto;
+  height: 400px;
+  width: 100%;
+}
+
+/*clase para slider index*/
+/*
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container-slider{
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.container-slider .slider{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500%;
+  height: 100%;
+  float: left;
+}
+
+.container-slider .slider .slide{
+  width: 20%;
+  height: 100%;
+  float: left;
+}
+
+.container-slider .slider .slide .caption{
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  right: 60px;
+  padding: 30px;
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+}
+
+.container-slider .slider .slide .caption h2{
+  margin: 0 0 20px;
+  padding: 0;
+  color: #fff;
+  font-size: 48px
+}
+
+.container-slider .slider .slide .caption p{
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 18px  
+}
+
+.container-slider .slider .slide.slider1 {
+  background: url(../img/acciones-recursos.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-slider .slider .slide.slider2 {
+  background: url(../img/gestional_rh.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.container-slider .slider .slide.slider3 {
+  background: url(../img/recursos-humanos.jpg);
+  background-size: cover;
+  background-position: center;
+}
+*/
+.img-responsive
+{
+  width: 100%;
+  height: 100vh;
+  position: absolute;  
+  background: url(../img/gestional_rh_.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.color-heading{
+  background-color: #494949;
+  color: #fff;
+  line-height: 30px;
+  height: 5vh;
+  border-radius: 10px;
+}
+
+.icono-izq{
+  float: left;
+  margin-left: 4px;
+  margin-top: 0;
+}
+
+.icono-der{
+  float: right;
+  margin-right: 4px;
+  margin-top: 0;
+}
+
+ .confondo-aras {
+   background-color: #FF0202;
+ }
+
+.confondo-gerleinco {
+  background-color: #058CF6;
+}
+
+.confondo-Por-Mejorar {
+  background-color: #FF0303;
+}
+
+.confondo-Satisfactorio {
+  background-color: #FFDD03;
+}
+
+.confondo-Sobresaliente {
+  background-color: #3CEE37;
+}
+
+.colorBtn {
+  background-color: #57FF03; 
+  border: 1px solid #57FF03;
+}
+
+.alinearcentro {
+  text-align: center;
+}
