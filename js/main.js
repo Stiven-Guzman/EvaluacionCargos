@@ -4,7 +4,6 @@ $(".chosen-select").chosen({disable_search_threshold: 10});
 /*************************** Funcion de menu ***************************/
 $(document).ready(function() {
 	$('.menu li:has(ul)').click(function(e) {
-		/* Act on the event */
 		e.preventDefault();
 
 		if ($(this).hasClass('activado')) {
@@ -21,12 +20,10 @@ $(document).ready(function() {
 	});
 
 	$('.btn-menu').click(function() {
-		/* Act on the event */
 		$('.contenedor-menu .menu').slideToggle();
 	});
 
 	$(window).resize(function() {
-		/* Act on the event */
 		if ($(document).width() > 450) {
 			$('.contenedor-menu .menu').css({'display':'block'});
 		}
@@ -39,10 +36,8 @@ $(document).ready(function() {
 	});
 
 	$(".menu li ul li a").click(function() {
-//	  window.location.href = $(this).attr("href");
 	    var url = $(this).attr('href');
 	    $('#iframe').attr('src', url);
-//	    $('#iframe').reload();
 	});		
 
 });
